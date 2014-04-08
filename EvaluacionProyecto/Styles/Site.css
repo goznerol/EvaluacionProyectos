@@ -1,0 +1,412 @@
+﻿
+body
+{
+    font-family:Myriad Pro;
+ }
+ 
+ #evaluacion
+ {
+    width:800px;   
+    height:50px;
+    text-align:center;
+    padding-top:20px;        
+     margin-left:auto;
+    margin-right:auto;
+     text-transform:uppercase;
+     font-weight:bolder;
+  }
+  
+ #fases_evaluacion
+ {
+    list-style-type:none;
+    width:802px;
+    margin-left:234px;
+    margin-top:0px;
+    text-align:center;    
+ }
+ 
+ #fases_evaluacion LI
+ {
+     border: 1px solid #cfcfcf;
+     display:table-cell;
+     width:350px;
+     height:50px;
+    padding:10px;
+    margin-left:2px;
+    cursor:pointer;    
+  }
+  
+  #fases_evaluacion li a
+  {
+      text-decoration:none;   
+  }
+  
+  #fases_evaluacion LI:hover
+  {
+    background-color:#F26522;
+    background-image:url('/images/select.png');
+    color:#ffffff;
+  }
+  
+  #fases_evaluacion LI a:hover
+  {
+      color:White;
+  }
+           
+  .selected
+ {
+	font-size: 16px;
+	text-decoration: none;
+	color: #ffffff;
+	background-image:url('/images/select.png');
+	background-color:#F26522;
+ }
+
+
+  #seccion1, #seccion2,#seccion3,#seccion4
+  {
+      border: 12px solid #F26522;
+      margin-top:-17px;
+      width:1080px;
+      margin-left:120px;
+      padding:0px;
+  }
+  
+  thead
+  {
+    background-color:rgb(15,10,90);
+    color:White;
+    padding:10px;
+  }
+  
+  tr
+  {
+      background-color:#F2F2F2;
+      height:40px;
+      border-bottom: 1px solid white;
+  }
+  tr:hover
+  {
+      background-color:#FCFCFC;
+  }
+  
+    
+ .chks{
+   margin-left:30px;
+   height:20px;
+   width:20px;
+}
+
+.txtpeso
+{
+    height:25px;
+    width:50px;
+    margin-left:15px;
+    font-size:20px;
+}
+
+label
+{
+    color:#708090;
+    padding-left:10px;
+    font-size:15px;
+}
+
+.lblTitulo
+{
+    color:Green;
+    padding-left:10px;
+    font-size:20px;
+}
+
+.bttn
+{
+    margin-left:970px;
+    margin-top:10px;
+    background-color:#F26522;
+    border:0px solid white;
+    cursor:pointer;
+    height:30px;
+    width:100px; 
+    margin-bottom:10px;
+}
+
+p
+{
+    font-family:Myriad Pro;
+    color:#708090;
+    padding-left:10px;
+    font-size:15px;
+}
+
+
+
+/*------------------------REGISTRO DE PROYECTOS-----------------------*/
+
+#contenedor
+{
+    border-radius: 8.0;    
+    width:1000px;
+    padding:10px;     
+ }
+ 
+ 
+ #menu
+ {
+     margin-top:50px;
+   width:220px;
+   height:auto;   
+   float:left;   
+   padding:0px;
+   background-color:#F3F0EB;
+    border-radius: 8.0;
+ }
+ 
+ #menu UL
+ {
+     list-style-type:none;
+     margin-top:-15px;
+     padding:0px;
+ }
+ 
+ #menu UL LI
+ {
+     padding:5px 0px 5px 5px;
+     margin-left:30px;
+     color:#000000;
+     font-size:13px;
+     margin-top:2px;
+ }
+ 
+  #menu UL LI:hover
+ {
+     background-color:#FFFFFF;
+     cursor:pointer;
+     color:black;
+     font-size:13px;
+     font-weight:bolder;     
+}
+.menu_selected
+{
+     background-color:#FFFFFF;
+     cursor:pointer;
+     font-size:14px;
+     font-weight:bolder;
+     border:1px solid #D8D5D1;
+     margin-right:-.15em;
+     border-right-color:#FFFFFF;
+     color:Red;
+}
+ 
+ .seccionmenu
+ {
+     background-color:Orange;
+     color:White;
+     width:90%;
+     padding:6px;
+     margin-left:-7px;
+     margin-top:5px;
+     border-radius:8.0;
+     font-size:15px;
+     font-family:Myriad Pro Light;
+     font-variant:small-caps;
+ }
+ 
+ .formSecciones
+ {          
+     padding:5px;
+     width:600px;
+     top:0px;
+     margin-left:221px;
+     border:1px solid #D8D5D1;
+     height:750px;        
+ }
+ 
+ 
+ .tituloseccion
+ {
+     background-image:url('/images/back_seccion_header.png');
+     height:50px;
+     width:580px;
+     margin-left:-5px;
+     margin-top:-26px;
+     padding:0px 15px 0px;
+     vertical-align:middle;      
+ }
+ .tituloseccion H4
+ {
+     padding-top:12px;
+     color:Orange;
+ }
+ 
+ 
+ .formSecciones UL
+ {
+     list-style-type:none;
+     padding:0px;
+ }
+ 
+.formSecciones UL LI
+ {
+     padding:5px 5px 5px 15px;
+ } 
+ 
+ .label
+ {  
+  float:left;
+  height:28px;
+  margin-top:5px;
+  }
+ 
+ .campo
+ {     
+    margin-left:160px;
+    margin-top:0px;
+ }
+ 
+  .text
+  {
+       width:100%;
+       height:28px;
+  }
+  
+  .textmulti
+  {
+       width:100%;
+       height:60px;       
+   }
+   
+   .secbotones   
+   {
+     width:100%;     
+     background-image:url('/images/back_seccion_header.png');
+     height:69px;
+     width:584px;
+     margin-left:-5px;
+     margin-top:25px;
+     padding:0px 15px 0px;
+     vertical-align:middle;
+   }
+  
+  .bttonregistro
+  {     
+    background-color:#F2F2F2;
+    border:1px solid #cccccc;
+    cursor:pointer;
+    margin-top:10px;
+    float:right;
+    color:#ABABAB;
+  }
+  
+  .instruccion
+  {    
+    font-size:12px;     
+   }
+   
+   
+      /*------------------------Menu Horizontal-----------------------*/
+   
+  .horizontalaccordion>ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+   	height: 300px;
+}
+
+.horizontalaccordion>ul>li {
+    display:block;
+	overflow: hidden;
+    float:left;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+	width:40px;
+	height: 300px;
+
+    /* Decorative CSS */
+    background:#f0f0f0;
+
+    /* CSS3 Transitions */
+    transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+}
+
+.horizontalaccordion>ul>li>h4 {
+    display:block;
+    float:left;
+    margin: 0;
+    padding:10px;
+    height:19px;
+    width:280px;
+
+    /* Decorative CSS */
+    border-left:#f0f0f0 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    text-transform:capitalize;
+    color: #000;
+    background:#cccccc;
+
+    /* CSS3 Transform Rotate & Translate */
+    white-space:nowrap;
+    -moz-transform: rotate(90.0deg) translate(-40px,0px);  /* FF3.5+ */
+    -moz-transform-origin: 0 100%;
+    -o-transform: rotate(90.0deg) translate(-40px,0px);  /* Opera 10.5 */
+    -o-transform-origin: 0 100%;
+    -webkit-transform: rotate(90.0deg) translate(-40px,0px);  /* Saf3.1+, Chrome */
+    -webkit-transform-origin: 0 100%;
+    transform: rotate(90.0deg) translate(-40px,0px);  /* Saf3.1+, Chrome */
+    transform-origin: 0 100%;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)
+            progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff999999, endColorstr=#ffcccccc);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)"
+                "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff999999, endColorstr=#ffcccccc)"; /* IE8 */
+
+    /* CSS3 Gradient Effect */
+    background: -moz-linear-gradient( top, #999999, #cccccc);
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#cccccc));
+}
+
+.horizontalaccordion>ul>li>div {
+    display:none;
+    float:left;
+	overflow: auto;
+    position:relative;
+    top:-40px;
+    left:40px;
+    *top:0px;       /* IE7 Hack */
+    *left:0px;      /* IE7 Hack */
+    margin:0;
+    width:320px;
+    height:280px;
+    padding:10px;
+}
+
+.horizontalaccordion>ul>li:hover {
+    overflow: hidden;
+	width: 380px;
+}
+
+.horizontalaccordion:hover>ul>li:hover>div {
+    display:block;
+}
+
+.horizontalaccordion:hover>ul>li:hover>h4 {
+    /* Decorative CSS */
+    color:#fff;
+    background:#000000;
+
+    /* CSS3 Gradient Effect */
+    background: -moz-linear-gradient( top, #454545, #000000); /* FF, Flock */
+    background: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#000000)); /* Safari, Chrome */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)
+            progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff454545, endColorstr=#ff000000); /* IE 5.5 - IE 7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)"
+                "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff454545, endColorstr=#ff000000)";   /* IE 8 */
+}
+
+.horizontalaccordion>ul>li>h4:hover {
+    cursor:pointer;
+}
